@@ -1,9 +1,5 @@
 # Real-Time Stock Market Price Checking App Built Using Django, Celery, Django-Channels, WebSockets.
 
-![Made with love in India](https://madewithlove.now.sh/in?heart=true&colorA=%232543d4&colorB=%23f58f00&template=for-the-badge)
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
-[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-
 ## About Project 📄
 This Real-Time Stock Market Price Checking App Built Using Django, where user can select the one or multiple stocks from the list and can check their price in Real-time which updates frequently. It Store the User Session ID in the database on temporary basis. Session ids are further used to send data to user.
 
@@ -26,10 +22,6 @@ This Real-Time Stock Market Price Checking App Built Using Django, where user ca
 - `Bootstrap 5` - For UI Development of Project.
 - `FontAwesome` - For embedding icons in Project.
 - `HTML/CSS` - For Coding Basic Templates of Project.
-
-## Demo Of Application
-To Watch the Live Demo Of Application click on the Below Given Link.
-[View Demo](https://www.linkedin.com/posts/chinmayagrawal775_python-django-djangodeveloper-activity-7055530943628947456-CglY) 🚀.
 
 ### Here Are Some ScreenShots of The Application
 
