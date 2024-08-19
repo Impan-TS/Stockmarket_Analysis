@@ -29,34 +29,3 @@ This Real-Time Stock Market Price Checking App Built Using Django, where user ca
 <img src="https://user-images.githubusercontent.com/62383314/233631648-7aa83b87-5dc6-4fdf-ba86-9496e6b309d0.png" alt="drawing" width="49%"></img>
 <img src="https://user-images.githubusercontent.com/62383314/233631655-71a42866-53b3-483b-8c1b-41ccc5c4eb82.png" alt="drawing" width="49%"></img>
 <img src="https://user-images.githubusercontent.com/62383314/233631633-606f18e3-eb78-400b-8a6b-600ef50aa017.png" alt="drawing" width="49%"></img>
-
-## How to Run This Application on local Server
-To run this application on your local development server you need to run the following commands. Run Each Command in the new Terminal. (These commands are for Windows OS)
-
-To Run the Django Development Server :
-```BASH
-python manage.py runserver
-```
-To Start the Celery Worker :
-```BASH
-celery -A stockmarket.celery worker --pool=solo -l info
-```
-To Start the Celery Beat Scheduler :
-```BASH
-celery -A stockmarket beat -l INFO
-```
-
-> Note: In case if there are uncompleted tasks in left in the queue, due to which it is sending old details of stocks, then you need to clear the queue using the below command.
-```BASH
-celery -A stockmarket purge -f
-```
-
-
-## Note
-If You are Learner, or Want to test this application, Then After Forking & Cloning, You Can use these `Test Credentials` for accessing the Admin Panel of Application to see how it stores `User Sessions` on temporary basis.
-
-``` PYTHON
-- #### FOR ADMIN LOGIN ####:
-  - ID : admin
-  - PASSWORD : admin
-```
